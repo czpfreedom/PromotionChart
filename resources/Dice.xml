@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<side>
+		<description>德</description>
+		<probability>0.25</probability>
+	</side>
+
+	<side>
+		<description>才</description>
+		<probability>0.25</probability>
+	</side>
+
+	<side>
+		<description>功</description>
+		<probability>0.25</probability>
+	</side>
+
+	<side>
+		<description>赃</description>
+		<probability>0.25</probability>
+	</side>
+
+</root>

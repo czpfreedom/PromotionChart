@@ -1,0 +1,5513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<officialposition>
+		<name>BaiXing </name>
+		<chinesename> 百姓</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>AnShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BaiDing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BaiXing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>	
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>1000,1000</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>1000,1000</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>白丁</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>33,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+		
+	</officialposition>
+
+	<officialposition>
+		<name>BaiDing</name>
+		<chinesename>白丁</chinesename>
+		<department>WeiZuoGuan</department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JianSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>AnShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BaiDing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<pressedcolor></pressedcolor>
+				<text>白丁</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>33,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TongSheng</name>
+		<chinesename>童生</chinesename>
+		<department>WeiZuoGuan</department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XiuCai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>AnShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>31,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>31,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>童生</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>31,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>31,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>AnShou</name>
+		<chinesename>案首</chinesename>
+		<department>WeiZuoGuan</department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>LinSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XiuCai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>AnShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>29,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>29,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>案首</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>29,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>29,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JianSheng</name>
+		<chinesename> 监生</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JuRen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YiCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BaiDing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>27,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>27,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>监生</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>27,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>27,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XiuCai</name>
+		<chinesename>秀才</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XieYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JuRen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LinSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>秀才</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>25,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>LinSheng</name>
+		<chinesename>廪生</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XieYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JuRen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>GongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>23,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>23,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>廪生</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>23,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>23,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>GongSheng</name>
+		<chinesename>贡生</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JuRen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunDao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XiuCai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>21,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>21,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>贡生</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>21,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>21,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JuRen</name>
+		<chinesename>举人</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>HuiYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SanJia</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XieYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XiuCai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>19,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>19,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>举人</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>19,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>19,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XieYuan</name>
+		<chinesename>解元</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>HuiYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ErJia</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SanJia</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>GongSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>17,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>17,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>解元</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>17,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>17,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>SanJia</name>
+		<chinesename>三甲</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>BangYan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TanHua</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JiaoShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JuRen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>15,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>15,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>三甲</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>15,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>15,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ErJia</name>
+		<chinesename>二甲</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>BangYan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TanHua</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XiuZhuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JiaoShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>13,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>13,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>二甲</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>13,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>13,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>HuiYuan</name>
+		<chinesename>会元</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhuangYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BangYan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TanHua</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XieYuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>11,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>11,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>会元</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>11,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>11,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TanHua</name>
+		<chinesename>探花</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuYin</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShaoQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShiDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BianXiu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>9,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>9,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>探花</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>9,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>9,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>BangYan</name>
+		<chinesename>榜眼</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhengQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuYin</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XiuZhuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>7,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>榜眼</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhuangYuan</name>
+		<chinesename>状元</chinesename>
+		<department> WeiZuoGuan </department>
+		<level>1</level>
+		<grade>没品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XunFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhengQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>5,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>5,33</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>状元</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>5,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>5,32</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>无品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>FuYin</name>
+		<chinesename>府尹</chinesename>
+		<department>JingFuYaMen</department>
+		<level>1</level>
+		<grade>正三品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XueShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhengQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShaoQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,22</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,22</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>府尹</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,22</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,22</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正三品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>FuCheng</name>
+		<chinesename>府丞</chinesename>
+		<department>JingFuYaMen</department>
+		<level>2</level>
+		<grade>正四品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuYin</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhengQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,24</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,24</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>府丞</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,24</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,24</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正四品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhiZhong</name>
+		<chinesename>治中</chinesename>
+		<department>JingFuYaMen</department>
+		<level>3</level>
+		<grade>正五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>CanZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,26</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,26</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>治中</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,26</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,26</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正五品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingPan</name>
+		<chinesename>京判</chinesename>
+		<department>JingFuYaMen</department>
+		<level>4</level>
+		<grade>正六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TongZhi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,28</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,28</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>京判</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,28</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,28</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingJing</name>
+		<chinesename>京经</chinesename>
+		<department>JingFuYaMen</department>
+		<level>5</level>
+		<grade>從七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>LiWen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouTong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XianCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+		
+		<UI>
+			<background>
+				<position>25,30</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,30</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>京经</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,30</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,30</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从七品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZongDu</name>
+		<chinesename>总督</chinesename>
+		<department>WaiShengYaMen</department>
+		<level>1</level>
+		<grade>從一品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TaiBao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShangShu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,16</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,16</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>总督</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,16</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,16</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从一品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XunFu</name>
+		<chinesename>巡抚</chinesename>
+		<department>WaiShengYaMen</department>
+		<level>2</level>
+		<grade>正二品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShangShu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZongDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuYin</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,18</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,18</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>巡抚</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正二品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>DaoTai</name>
+		<chinesename>道台</chinesename>
+		<department>WaiShengYaMen</department>
+		<level>3</level>
+		<grade>從三品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XunFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BuZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuYin</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,20</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,20</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>道台</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,20</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,20</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从三品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingXian</name>
+		<chinesename>京县</chinesename>
+		<department>JingXianYaMen</department>
+		<level>1</level>
+		<grade>正六品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>LangZhong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,24</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,24</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>京县</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,24</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,24</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingCheng</name>
+		<chinesename>京丞</chinesename>
+		<department>JingXianYaMen</department>
+		<level>2</level>
+		<grade>正七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JingXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouTong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingXun</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,26</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,26</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>京丞</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,26</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,26</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正七品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingXun</name>
+		<chinesename>京巡</chinesename>
+		<department>JingXianYaMen</department>
+		<level>3</level>
+		<grade>正八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>PingShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JinTao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunDao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,28</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,28</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>京巡</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,28</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,28</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正八品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingDian</name>
+		<chinesename>京典</chinesename>
+		<department>JingXianYaMen</department>
+		<level>4</level>
+		<grade>未入品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>KongMu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YiCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,30</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,30</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>京典</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,30</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,30</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>未入流</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>BuZheng</name>
+		<chinesename>布政</chinesename>
+		<department>BuZhengYaMen</department>
+		<level>1</level>
+		<grade>正二品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShiLang</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DaoTai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,2</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,2</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>布政</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,2</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,2</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正二品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>CanZheng</name>
+		<chinesename>参政</chinesename>
+		<department>BuZhengYaMen</department>
+		<level>2</level>
+		<grade>正四品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>BuZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhengQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>AnCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,4</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,4</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>参政</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,4</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,4</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正四品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>CanYi</name>
+		<chinesename>参议</chinesename>
+		<department>BuZhengYaMen</department>
+		<level>3</level>
+		<grade>正五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>CanZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,6</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,6</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>参议</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,6</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,6</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正五品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>LiWen</name>
+		<chinesename>理问</chinesename>
+		<department>BuZhengYaMen</department>
+		<level>4</level>
+		<grade>從六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,8</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,8</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>理问</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,8</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,8</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>DaShi</name>
+		<chinesename>大使</chinesename>
+		<department>BuZhengYaMen</department>
+		<level>5</level>
+		<grade>正八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>SiKu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,10</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,10</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>大使</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,10</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,10</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正八品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhaoMo</name>
+		<chinesename>照磨</chinesename>
+		<department>BuZhengYaMen</department>
+		<level>6</level>
+		<grade>從八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DaShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LiMu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>0,12</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>0,12</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>照磨</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>7,12</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>7,12</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从八品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhiFu</name>
+		<chinesename>知府</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>1</level>
+		<grade>正四品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuYin</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DaoTai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>30,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>30,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>知府</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>30,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>30,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正四品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TongZhi</name>
+		<chinesename>同知</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>2</level>
+		<grade>正五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanYi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>28,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>28,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>同知</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>28,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>28,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正五品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TongPan</name>
+		<chinesename>通判</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>3</level>
+		<grade>正六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TongZhi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>PingShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>26,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>26,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>通判</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>26,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>26,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正六品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JiaoShou</name>
+		<chinesename>教授</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>4</level>
+		<grade>正七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JingXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>24,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>教授</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正七品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JingLi</name>
+		<chinesename>经历</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>5</level>
+		<grade>從八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>SiKu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XianCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuBu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>22,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>22,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>经历</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>22,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>22,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从八品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XunJian</name>
+		<chinesename>巡检</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>6</level>
+		<grade>從九品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhuBu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiYu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YiCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>20,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>20,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>巡检</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>20,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>20,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从九品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>YiCheng</name>
+		<chinesename>驿丞</chinesename>
+		<department>WaiFuYaMen</department>
+		<level>7</level>
+		<grade>未入品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XunJian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingDian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BaiDing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>18,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>驿丞</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>18,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>未入品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+		
+	<officialposition>
+		<name>AnCha</name>
+		<chinesename>按察</chinesename>
+		<department>AnChaSiYaMen</department>
+		<level>1</level>
+		<grade>正二品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>14,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>按察</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>14,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正二品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>FuShi</name>
+		<chinesename>副使</chinesename>
+		<department>AnChaSiYaMen</department>
+		<level>2</level>
+		<grade>從四品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>AnCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanYi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShaoQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongZhi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>12,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>12,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>副使</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>12,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>12,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从四品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JiShi</name>
+		<chinesename>给事</chinesename>
+		<department>AnChaSiYaMen</department>
+		<level>3</level>
+		<grade>從五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanYi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouTong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>10,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>10,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>给事</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>10,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>10,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从五品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>SiYu</name>
+		<chinesename>司狱</chinesename>
+		<department>AnChaSiYaMen</department>
+		<level>4</level>
+		<grade>從九品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuBu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>8,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,1</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>司狱</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>8,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,0</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从九品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>DuShi</name>
+		<chinesename>都史</chinesename>
+		<department>DuChaYuanYaMen</department>
+		<level>1</level>
+		<grade>正一品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TaiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiBao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShangShu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShiLang</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>8,18</position>
+				<size>6,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,18</position>
+				<size>6,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>都史</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>14,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正一品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>FuDu</name>
+		<chinesename>副都</chinesename>
+		<department>DuChaYuanYaMen</department>
+		<level>2</level>
+		<grade>正三品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShiLang</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BuZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanYi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>8,20</position>
+				<size>6,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,20</position>
+				<size>6,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>副都</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>14,20</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,20</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正三品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JianCha</name>
+		<chinesename>监察</chinesename>
+		<department>DuChaYuanYaMen</department>
+		<level>3</level>
+		<grade>正五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShaoQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YuanWai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>8,22</position>
+				<size>6,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,22</position>
+				<size>6,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>监察</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>14,22</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,22</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正五品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+	
+	<officialposition>
+		<name>ZhengQing</name>
+		<chinesename>正卿</chinesename>
+		<department>JiuQingYaMen</department>
+		<level>1</level>
+		<grade>正三品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShiLang</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>BuZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DaoTai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,10</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,10</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正卿</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,10</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,10</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正三品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ShaoQing</name>
+		<chinesename>少卿</chinesename>
+		<department>JiuQingYaMen</department>
+		<level>2</level>
+		<grade>正四品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>AnCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DaoTai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LangZhong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,12</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,12</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>少卿</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,12</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,12</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正四品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>SiZheng</name>
+		<chinesename>寺正</chinesename>
+		<department>JiuQingYaMen</department>
+		<level>3</level>
+		<grade>正六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiZhong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongZhi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YuanWai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LiWen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,14</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,14</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>寺正</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,14</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,14</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>SiFu</name>
+		<chinesename>寺副</chinesename>
+		<department>JiuQingYaMen</department>
+		<level>4</level>
+		<grade>從六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>YuanWai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,16</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,16</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>寺副</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,16</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,16</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>PingShi</name>
+		<chinesename>评事</chinesename>
+		<department>JiuQingYaMen</department>
+		<level>5</level>
+		<grade>正七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouTong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunDao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>25,18</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>25,18</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>评事</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>24,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>24,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正七品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XueShi</name>
+		<chinesename>学士</chinesename>
+		<department>HanLinYuan</department>
+		<level>1</level>
+		<grade>正二品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShangShu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShiLang</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhengQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>20,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>20,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>学士</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>20,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>20,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正二品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ShiDu</name>
+		<chinesename>侍读</chinesename>
+		<department>HanLinYuan</department>
+		<level>2</level>
+		<grade>從四品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>DaoTai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShaoQing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>18,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>侍读</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>18,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从四品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XiuZhuan</name>
+		<chinesename>修撰</chinesename>
+		<department>HanLinYuan</department>
+		<level>3</level>
+		<grade>從五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JianCha</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LangZhong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YuanWai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JiaoShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>16,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>16,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>修撰</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>16,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>16,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从五品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>BianXiu</name>
+		<chinesename>编修</chinesename>
+		<department>HanLinYuan</department>
+		<level>4</level>
+		<grade>從六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShiDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>YuanWai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>14,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>编修</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>14,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从六品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>JianTao</name>
+		<chinesename>检讨</chinesename>
+		<department>HanLinYuan</department>
+		<level>5</level>
+		<grade>正七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XiuZhuan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>PingShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>12,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>12,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>检讨</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>12,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>12,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正七品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XuBan</name>
+		<chinesename>序班</chinesename>
+		<department>HanLinYuan</department>
+		<level>6</level>
+		<grade>從八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XianCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunDao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingDian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>10,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>10,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>序班</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>10,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>10,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从八品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>KongMu</name>
+		<chinesename>孔目</chinesename>
+		<department>HanLinYuan</department>
+		<level>7</level>
+		<grade>未入品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XuBan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiYu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>8,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,9</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>孔目</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>8,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,8</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>未入品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+	
+	<officialposition>
+		<name>ShangShu</name>
+		<chinesename>尚书</chinesename>
+		<department>LiuBu</department>
+		<level>1</level>
+		<grade>正一品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TaiShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiBao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShiLang</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>20,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>20,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>尚书</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>20,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>20,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正一品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+	
+	<officialposition>
+		<name>ShiLang</name>
+		<chinesename>侍郎</chinesename>
+		<department>LiuBu</department>
+		<level>2</level>
+		<grade>正二品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ShangShu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZongDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>18,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>侍郎</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>18,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正二品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>LangZhong</name>
+		<chinesename>郎中</chinesename>
+		<department>LiuBu</department>
+		<level>3</level>
+		<grade>正五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>DaoTai</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>FuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>16,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>16,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>郎中</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>16,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>16,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正五品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>YuanWai</name>
+		<chinesename>员外</chinesename>
+		<department>LiuBu</department>
+		<level>4</level>
+		<grade>從五品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>FuCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanYi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShiDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>14,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>员外</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>14,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>14,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从五品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhuShi</name>
+		<chinesename>主事</chinesename>
+		<department>LiuBu</department>
+		<level>5</level>
+		<grade>正六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiZhong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongZhi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>12,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>12,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>主事</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>12,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>12,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正六品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>SiKu</name>
+		<chinesename>司库</chinesename>
+		<department>LiuBu</department>
+		<level>6</level>
+		<grade>正七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>SiZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>LiWen</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XianCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>10,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>10,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>司库</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>10,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>10,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正七品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>SiWu</name>
+		<chinesename>司务</chinesename>
+		<department>LiuBu</department>
+		<level>7</level>
+		<grade>從九品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>DaShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuBu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>KongMu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>8,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,25</position>
+				<size>2,7</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>司务</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>8,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>8,24</position>
+				<size>2,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从九品</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TaiShi</name>
+		<chinesename>太师</chinesename>
+		<department>NeGe</department>
+		<level>1</level>
+		<grade>三公</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>RongGui</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>RongGui</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ShangShu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>18,18</position>
+				<size>3,6</size>
+				<scale>1,1</scale>
+				<color>red</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>18,18</position>
+				<size>3,6</size>
+				<scale>1,1</scale>
+				<color>yellow</color>
+				<text>太师</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>-10000,-10000</position>
+				<size>3,1</size>
+				<scale>1,1</scale>
+				<color>red</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>-10000,-10000</position>
+				<size>3,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>三公</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TaiFu</name>
+		<chinesename>太傅</chinesename>
+		<department>NeGe</department>
+		<level>2</level>
+		<grade>三公</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TaiShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DuShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>21,18</position>
+				<size>3,6</size>
+				<scale>1,1</scale>
+				<color>red</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>21,18</position>
+				<size>3,6</size>
+				<scale>1,1</scale>
+				<color>yellow</color>
+				<text>太傅</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>-10000,-10000</position>
+				<size>3,1</size>
+				<scale>1,1</scale>
+				<color>red</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>-10000,-10000</position>
+				<size>3,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>三公</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>TaiBao</name>
+		<chinesename>太保</chinesename>
+		<department>NeGe</department>
+		<level>3</level>
+		<grade>三公</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>TaiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiBao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TaiBao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZongDu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>15,18</position>
+				<size>3,6</size>
+				<scale>1,1</scale>
+				<color>red</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>15,18</position>
+				<size>3,6</size>
+				<scale>1,1</scale>
+				<color>yellow</color>
+				<text>太保</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>-10000,-10000</position>
+				<size>3,1</size>
+				<scale>1,1</scale>
+				<color>red</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>-10000,-10000</position>
+				<size>3,1</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>三公</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhiZhou</name>
+		<chinesename>知州</chinesename>
+		<department>WaiZhouYaMen</department>
+		<level>1</level>
+		<grade>從五品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+			
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>CanYi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,10</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,10</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>知州</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,10</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>32,10</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从五品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhouTong</name>
+		<chinesename>州同</chinesename>
+		<department>WaiZhouYaMen</department>
+		<level>2</level>
+		<grade>從六品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiZhou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhouPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,12</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,12</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>州同</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,12</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>32,12</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhouPan</name>
+		<chinesename>州判</chinesename>
+		<department>WaiZhouYaMen</department>
+		<level>3</level>
+		<grade>從七品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhouTong</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunDao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,14</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,14</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>州判</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,14</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>32,14</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从七品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XueZheng</name>
+		<chinesename>学正</chinesename>
+		<department>WaiZhouYaMen</department>
+		<level>4</level>
+		<grade>正八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhouPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianTao</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,16</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,16</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>学正</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,16</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>32,16</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正八品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>LiMu</name>
+		<chinesename>吏目</chinesename>
+		<department>WaiZhouYaMen</department>
+		<level>5</level>
+		<grade>從九品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiYu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhuBu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DianShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,18</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>33,18</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>吏目</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+				<pressedcolor></pressedcolor>
+			</background>
+			<text>
+				<position>32,18</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从九品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhiXian</name>
+		<chinesename>知县</chinesename>
+		<department>WaiXianYaMen</department>
+		<level>1</level>
+		<grade>正六品</grade>
+		<description>1</description>
+		<isMaster>true</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiFu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,22</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>gold2</color>
+			</background>
+			<text>
+				<position>33,22</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>知县</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,22</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>gold3</color>
+			</background>
+			<text>
+				<position>32,22</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正六品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XianCheng</name>
+		<chinesename>县丞</chinesename>
+		<department>WaiXianYaMen</department>
+		<level>2</level>
+		<grade>正八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>ZhiXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingJing</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XueZheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,24</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+			</background>
+			<text>
+				<position>33,24</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>县丞</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,24</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+			</background>
+			<text>
+				<position>32,24</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>正八品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>XunDao</name>
+		<chinesename>训导</chinesename>
+		<department>WaiXianYaMen</department>
+		<level>3</level>
+		<grade>從八品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>JiaoShou</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JingXun</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XuBan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,26</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+			</background>
+			<text>
+				<position>33,26</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>训导</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,26</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+			</background>
+			<text>
+				<position>32,26</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从八品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>ZhuBu</name>
+		<chinesename>主簿</chinesename>
+		<department>WaiXianYaMen</department>
+		<level>4</level>
+		<grade>從九品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>XianCheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>DaShi</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhaoMo</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>XunJian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,28</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+			</background>
+			<text>
+				<position>33,28</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>主簿</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,28</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+			</background>
+			<text>
+				<position>32,28</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>从九品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+
+	<officialposition>
+		<name>DianShi</name>
+		<chinesename>典史</chinesename>
+		<department>WaiXianYaMen</department>
+		<level>5</level>
+		<grade>未入品</grade>
+		<description>1</description>
+		<isMaster>false</isMaster>
+
+		<nextofficialpositionprobability>
+			<officialpositionprobability>
+				<officialposition>SiWu</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>TongPan</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>ZhiXian</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+
+			<officialpositionprobability>
+				<officialposition>JianSheng</officialposition>
+				<probability>0.25</probability>
+			</officialpositionprobability>
+		</nextofficialpositionprobability>
+
+		<UI>
+			<background>
+				<position>33,30</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>green2</color>
+			</background>
+			<text>
+				<position>33,30</position>
+				<size>7,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>典史</text>
+				<textdirection>Horizontal</textdirection>
+			</text>
+		</UI>
+
+		<GradeUI>
+			<background>
+				<position>32,30</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>green3</color>
+			</background>
+			<text>
+				<position>32,30</position>
+				<size>1,2</size>
+				<scale>1,1</scale>
+				<color>black</color>
+				<text>未入品</text>
+				<textdirection>Vertical</textdirection>
+			</text>
+		</GradeUI>
+
+	</officialposition>
+</root>

@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://4l8k76si7nbo"]
+
+[ext_resource type="Script" path="res://scripts/nodes/GameScene.cs" id="1_qplir"]
+[ext_resource type="PackedScene" uid="uid://bv47jqrwgscyt" path="res://scenes/chart_scene.tscn" id="1_t4cgk"]
+[ext_resource type="PackedScene" uid="uid://tknhomjuipet" path="res://scenes/hud.tscn" id="3_w3jxw"]
+
+[node name="game_scene" type="Node2D"]
+script = ExtResource("1_qplir")
+
+[node name="ChartScene" parent="." instance=ExtResource("1_t4cgk")]
+
+[node name="hud" parent="." instance=ExtResource("3_w3jxw")]
+
+[node name="StartTimer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="ChooseMemberTimer" type="Timer" parent="."]
+wait_time = 20.0
+one_shot = true
+
+[connection signal="timeout" from="StartTimer" to="." method="OnStartTimerTimeout"]
+[connection signal="timeout" from="ChooseMemberTimer" to="." method="OnChooseMemberTimerTimeout"]

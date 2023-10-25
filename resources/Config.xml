@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<player>
+		<playermaxnum>10</playermaxnum>
+		<membermaxnum>10</membermaxnum>
+	</player>
+
+
+
+	<time>
+		<timemax>20</timemax>
+	</time>
+
+	<money>
+		<init>100</init>
+		<lose>0</lose>
+	</money>
+</config>

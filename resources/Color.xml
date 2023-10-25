@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<color>
+		<name>black</name>
+		<value>#000000ff</value>
+	</color>
+
+	<color>
+		<name>blue</name>
+		<value>#0000ffff</value>
+	</color>
+	
+	<color>
+		<name>blue2</name>
+		<value>#b9d7eeff</value>
+	</color>
+
+	<color>
+		<name>gold2</name>
+		<value>#ffe699ff</value>
+	</color>
+
+	<color>
+		<name>gold3</name>
+		<value>#ffd966ff</value>
+	</color>
+
+	<color>
+		<name>green</name>
+		<value>#00ff00ff</value>
+	</color>
+	
+	<color>
+		<name>green2</name>
+		<value>#c6e0b4ff</value>
+	</color>
+
+	<color>
+		<name>green3</name>
+		<value>#a9d08eff</value>
+	</color>
+
+	<color>
+		<name>orange</name>
+		<value>#ffc000ff</value>
+	</color>
+	
+	<color>
+		<name>purple</name>
+		<value>#7030a0ff</value>
+	</color>
+
+	<color>
+		<name>red</name>
+		<value>#ff0000ff</value>
+	</color>
+	
+	<color>
+		<name>white</name>
+		<value>#ffffffff</value>
+	</color>
+
+	<color>
+		<name>yellow</name>
+		<value>#ffff00ff</value>
+	</color>
+	
+</root>

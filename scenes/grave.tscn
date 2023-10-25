@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4bj5c2sokhb7"]
+
+[ext_resource type="Script" path="res://scripts/nodes/GraveNode.cs" id="1_6v6kd"]
+[ext_resource type="FontFile" uid="uid://bwulu75wqcg4v" path="res://fonts/Xolonium-Regular.ttf" id="2_en2w3"]
+[ext_resource type="LabelSettings" uid="uid://8fg6ide4q5un" path="res://resources/grave.tres" id="3_aoghs"]
+
+[node name="Department" type="Node2D"]
+position = Vector2(575, 396)
+scale = Vector2(5, 5)
+script = ExtResource("1_6v6kd")
+
+[node name="BackGround" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="BackGround"]
+offset_right = 200.0
+offset_bottom = 120.0
+scale = Vector2(0.2, 0.2)
+
+[node name="OfficialName" type="Node2D" parent="."]
+
+[node name="Label" type="Label" parent="OfficialName"]
+offset_right = 200.0
+offset_bottom = 120.0
+scale = Vector2(0.2, 0.2)
+theme_override_fonts/font = ExtResource("2_en2w3")
+theme_override_font_sizes/font_size = 60
+text = "大将军"
+label_settings = ExtResource("3_aoghs")
+horizontal_alignment = 1
+vertical_alignment = 1
