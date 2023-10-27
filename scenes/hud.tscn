@@ -33,20 +33,6 @@ offset_left = 850.0
 offset_top = 200.0
 offset_right = 1100.0
 offset_bottom = 600.0
-text = "玩家1：
-金钱：
-玩家2：
-金钱：
-玩家3：
-金钱：
-玩家4：
-金钱：
-玩家5：
-金钱：
-玩家6：
-金钱：
-玩家7：
-金钱："
 
 [node name="DiceResult" type="Label" parent="."]
 offset_left = 650.0
@@ -63,3 +49,5 @@ offset_right = 750.0
 offset_bottom = 390.0
 text = "确定
 "
+
+[connection signal="pressed" from="ConfirmButton" to="." method="OnConfirmButtonPressed"]

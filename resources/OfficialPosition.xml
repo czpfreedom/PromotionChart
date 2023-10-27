@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<officialposition>
-		<name>BaiXing </name>
+		<name>BaiXing</name>
 		<chinesename> 百姓</chinesename>
 		<department> WeiZuoGuan </department>
 		<level>1</level>
@@ -280,8 +280,8 @@
 
 	<officialposition>
 		<name>JianSheng</name>
-		<chinesename> 监生</chinesename>
-		<department> WeiZuoGuan </department>
+		<chinesename>监生</chinesename>
+		<department>WeiZuoGuan</department>
 		<level>1</level>
 		<grade>没品</grade>
 		<description>1</description>

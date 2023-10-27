@@ -9,6 +9,7 @@ public partial class GameState
     private int round;
     private int turnInRound;
     private Player presentPlayer;
+    public Member ChoosedMember;
 
     private Config.RoundState roundState;
 
@@ -30,12 +31,12 @@ public partial class GameState
         teamList.List[0].Name = "红队";
         teamList.List[1].Name = "绿队";
         teamList.List[2].Name = "蓝队";
-        teamList.List[0].PlayerList[0] = new Player(3,"zhangsan", 100, colorList.FindValueByName("Red"));
-        teamList.List[0].PlayerList[1] = new Player(3,"lisi", 100, colorList.FindValueByName("Orange"));
-        teamList.List[1].PlayerList[0] = new Player(3,"wangwu", 100, colorList.FindValueByName("Yellow"));
-        teamList.List[1].PlayerList[1] = new Player(3,"zhaoliu", 100, colorList.FindValueByName("Green"));
-        teamList.List[2].PlayerList[0] = new Player(3,"sunqi", 100, colorList.FindValueByName("Blue"));
-        teamList.List[2].PlayerList[1] = new Player(3,"zhouba", 100, colorList.FindValueByName("Purple"));
+        teamList.List[0].PlayerList[0] = new Player(3,"张三", 100, colorList.FindValueByName("Red"));
+        teamList.List[0].PlayerList[1] = new Player(3,"李四", 100, colorList.FindValueByName("Orange"));
+        teamList.List[1].PlayerList[0] = new Player(3,"王五", 100, colorList.FindValueByName("Yellow"));
+        teamList.List[1].PlayerList[1] = new Player(3,"赵六", 100, colorList.FindValueByName("Green"));
+        teamList.List[2].PlayerList[0] = new Player(3,"孙七", 100, colorList.FindValueByName("Blue"));
+        teamList.List[2].PlayerList[1] = new Player(3,"周八", 100, colorList.FindValueByName("Purple"));
 
         playerOrder = new PlayerOrder(6);
         playerOrder.Order[0] = teamList.List[0].PlayerList[0];
@@ -74,7 +75,7 @@ public partial class GameState
 
                 // 这是个用来显示当前玩家数据的代码，正式代码中删除
                 for (int k = 0; k < teamList.List[i].PlayerList[j].MemberList.Count; k++) {
-                    message += teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition.Name + ",";
+                    message += teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition.Chinesename + ",";
                 }
                 message += "\n";
             }

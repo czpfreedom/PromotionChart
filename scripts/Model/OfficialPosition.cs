@@ -12,6 +12,8 @@ public class OfficialPosition
     // 官职名称
     string name;
 
+    string chinesename;
+
     // 官职所属部门
 
     Department department;
@@ -49,6 +51,7 @@ public class OfficialPosition
     public Department Department { get => department; set => department = value; }
     public NodeUI PositionNodeUI { get => positionNodeUI; set => positionNodeUI = value; }
     public NodeUI GradeNodeUI { get => gradeNodeUI; set => gradeNodeUI = value; }
+    public string Chinesename { get => chinesename; set => chinesename = value; }
 
     public void Print() { 
         GD.Print("Id:"+id+"\n");

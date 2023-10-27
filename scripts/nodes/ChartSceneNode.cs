@@ -27,21 +27,15 @@ public partial class ChartSceneNode : Node2D
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
 	{
-        colorList = new ColorList();
-        ColorListMapper.LoadXML(colorList, "D:/godot/PromotionChart/resources/Color.xml");
+    }
 
-        departmentList =new();
-        DepartmentMapper.LoadXML(departmentList, "D:/godot/PromotionChart/resources/Department.xml", colorList);
+    public void SetChartScenNode(ColorList colorList, DepartmentList departmentList, OfficialPositionList officialPositionList) {
+        this.colorList= colorList;
+        this.departmentList= departmentList;
+        this.officialPositionList= officialPositionList;
         SetDepertment(departmentList);
-
-        officialPositionList = new OfficialPositionList();
-        OfficialPositionMapper.LoadXML(departmentList, officialPositionList, "D:/godot/PromotionChart/resources/OfficialPosition.xml", colorList);
-        GD.Print(1);
-        GD.Print(officialPositionList.List[1].Name );
-        //GD.Print((officialPositionList.List[1].Name=="BaiDing"));
         SetOfficialPosition(officialPositionList);
         SetGrave(officialPositionList);
-
     }
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.

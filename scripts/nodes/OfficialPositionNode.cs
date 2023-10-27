@@ -3,12 +3,11 @@ using System;
 
 public partial class OfficialPositionNode : ChartNode
 {
-	int enter ;
-	int pressTimeSign ;
-	Timer pressTimer;
+	public int enter ;
+	public int pressTimeSign ;
+	public Timer pressTimer;
 	public OfficialPosition OfficialPosition;
 
-	GameState gameState;
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -25,12 +24,16 @@ public partial class OfficialPositionNode : ChartNode
 			if(pressTimeSign == 1){
                 if (Input.IsActionPressed("mouse_left"))
                 {
-					pressTimeSign = 0;
-                    pressTimer.Start();
-                    GetParent<ChartSceneNode>().GetParent<GameScene>().ReturnOriginFromPressedOfficialPositionNode = GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode;
-                    GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode = this;
-                    GD.Print(this.Name);
-                    //GD.Print(GetParent<ChartSceneNode>().GetParent<GameScene>().ReturnOriginFromPressedOfficialPositionNode.Name);
+					if (GetParent<ChartSceneNode>().GetParent<GameScene>().gameState.PresentPlayer.FindMemberFromOfficialPosition(this.OfficialPosition)!=null) {
+                        pressTimeSign = 0;
+                        pressTimer.Start();
+						if (GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode != this)
+						{
+                            GetParent<ChartSceneNode>().GetParent<GameScene>().ReturnOriginFromPressedOfficialPositionNode = GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode;
+                            GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode = this;
+                        }
+                    }
+
                 }
             }
         }
@@ -38,12 +41,10 @@ public partial class OfficialPositionNode : ChartNode
 
 	public void OnLabelMouseEntered() {
 		enter = 1;
-        GD.Print(enter);
     }
 
 	public void OnLabelMouseExited() {
 		enter = 0;
-		GD.Print(enter);
 	}
 
 	public void OnPressTimerTimeout() {

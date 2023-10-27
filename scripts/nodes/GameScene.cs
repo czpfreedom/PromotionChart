@@ -4,13 +4,15 @@ using System;
 public partial class GameScene : Node2D
 {
 
-    private GameState gameState;
+    public GameState gameState;
 	private ChartSceneNode chartSceneNode;
     private Hud hudNode;
     private Timer StartTimer;
 
     public OfficialPositionNode PressedOfficialPositionNode;
     public OfficialPositionNode ReturnOriginFromPressedOfficialPositionNode;
+
+
 
     private ColorList colorList;
     private OfficialPositionList officialPositionList;
@@ -32,6 +34,8 @@ public partial class GameScene : Node2D
         chartSceneNode = (ChartSceneNode)GetNode<ChartSceneNode>("ChartScene");
         hudNode = (Hud)GetNode<Hud>("hud");
         StartTimer = (Timer)GetNode<Timer>("StartTimer");
+
+        chartSceneNode.SetChartScenNode(colorList,departmentList,officialPositionList);
 
         StartTimer.Start();
         PressedOfficialPositionNode = null;
@@ -118,5 +122,18 @@ public partial class GameScene : Node2D
     }
 
     private void MoveMentAndOtherResultProcess(){
+    }
+
+    public void SetPressedOfficialPositionNode(OfficialPositionNode officialPositionNodeNeedToBeSet) {
+        if (gameState.PresentPlayer.FindMemberFromOfficialPosition(officialPositionNodeNeedToBeSet.OfficialPosition) != null)
+        {
+            officialPositionNodeNeedToBeSet.pressTimeSign = 0;
+            officialPositionNodeNeedToBeSet.pressTimer.Start();
+            if (PressedOfficialPositionNode != officialPositionNodeNeedToBeSet)
+            {
+                ReturnOriginFromPressedOfficialPositionNode = PressedOfficialPositionNode;
+                PressedOfficialPositionNode = officialPositionNodeNeedToBeSet;
+            }
+        }
     }
 }

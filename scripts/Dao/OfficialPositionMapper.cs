@@ -22,8 +22,8 @@ public class OfficialPositionMapper
         {
             officialPosition = new OfficialPosition
             {
-                Department = departmentList.FindDepartmentByName(officialPositionNode.SelectSingleNode("department").InnerText),
-                Description = officialPositionNode.SelectSingleNode("description").InnerText
+                Department = departmentList.FindDepartmentByName(officialPositionNode.SelectSingleNode("department").InnerText.Replace(" ", "")),
+                Description = officialPositionNode.SelectSingleNode("description".Replace(" ", "")).InnerText
             };
             if (officialPositionNode.SelectSingleNode("isMaster").InnerText == "True")
             {
@@ -34,8 +34,8 @@ public class OfficialPositionMapper
                 officialPosition.IsMaster = false;
             }
             officialPosition.Level = int.Parse(officialPositionNode.SelectSingleNode("level").InnerText);
-            officialPosition.Name = officialPositionNode.SelectSingleNode("name").InnerText;
-            //GD.Print(officialPosition.Name);
+            officialPosition.Name = officialPositionNode.SelectSingleNode("name").InnerText.Replace(" ","");
+            officialPosition.Chinesename = officialPositionNode.SelectSingleNode("chinesename").InnerText.Replace(" ", "");
             officialPositionList.List.Add(officialPosition);
 
             i++;        
@@ -79,6 +79,5 @@ public class OfficialPositionMapper
             NodeUIMapper.LoadXML(officialPositionList.List[i].GradeNodeUI, UINode, colorList);
             i++;
         }
-        //GD.Print(officialPositionList.List[1].Name);
     }
 }

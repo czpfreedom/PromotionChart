@@ -34,4 +34,8 @@ public partial class Hud : CanvasLayer
     {
 		stateLabel.Text = message;
     }
+
+	public void OnConfirmButtonPressed() {
+
+    }
 }
