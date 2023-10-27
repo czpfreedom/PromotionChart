@@ -13,7 +13,8 @@ public partial class NodeUIMapper
         nodeUI.BackGroundScale = StringToVector2(backGroundNode.SelectSingleNode("scale").InnerText);
         nodeUI.BackGroundSize = StringToVector2(backGroundNode.SelectSingleNode("size").InnerText);
         nodeUI.BackGroundColor = colorList.FindValueByName(backGroundNode.SelectSingleNode("color").InnerText);
-        
+        nodeUI.BackGroundPressedColor = colorList.FindValueByName(backGroundNode.SelectSingleNode("pressedcolor").InnerText);
+
         nodeUI.TextPosition = StringToVector2(textNode.SelectSingleNode("position").InnerText);
         nodeUI.TextScale = StringToVector2(textNode.SelectSingleNode("scale").InnerText);
         nodeUI.TextSize = StringToVector2(textNode.SelectSingleNode("size").InnerText);

@@ -25,7 +25,7 @@ public partial class GameState
     public int TurnInRound { get => turnInRound; set => turnInRound = value; }
     public Dice Dice { get => dice; set => dice = value; }
 
-    public void InitForTest(ColorList colorList) { 
+    public void InitForTest(ColorList colorList, OfficialPositionList officialPositionList) { 
         teamList = new TeamList(3,2);
         teamList.List[0].Name = "红队";
         teamList.List[1].Name = "绿队";
@@ -53,6 +53,15 @@ public partial class GameState
         roundState = Config.RoundState.ChooseAMember;
 
         pauseState = Config.PauseState.Start;
+
+        for (int i = 0; i < teamList.List.Count; i++) {
+            for (int j = 0; j < teamList.List[i].PlayerList.Count; j++) {
+                for (int k = 0; k < teamList.List[i].PlayerList[j].MemberList.Count; k++) {
+                    teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition = officialPositionList.FindOfficialPositionByName("BaiXing");
+                    //GD.Print("!!!"+teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition.Name);
+                }
+            }
+        }
     }
 
     public String GetMoneyLabelMessage() {
@@ -62,6 +71,12 @@ public partial class GameState
             message += "队伍" + teamList.List[i].Name +":\n";
             for (int j = 0; j < teamList.List[i].PlayerList.Count; j++) {
                 message += "成员" + teamList.List[i].PlayerList[j].Name + ":" + teamList.List[i].PlayerList[j].Money + "\n";
+
+                // 这是个用来显示当前玩家数据的代码，正式代码中删除
+                for (int k = 0; k < teamList.List[i].PlayerList[j].MemberList.Count; k++) {
+                    message += teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition.Name + ",";
+                }
+                message += "\n";
             }
         }
         return message;

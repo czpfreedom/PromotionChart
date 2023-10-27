@@ -1,3 +1,4 @@
+using Godot;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,7 +8,8 @@ public class OfficialPositionMapper
 {
     public static void LoadXML(DepartmentList departmentList, OfficialPositionList officialPositionList, string xmlName, ColorList colorList)
     {
-        XmlDocument xml = new XmlDocument();
+
+        XmlDocument xml = new();
         xml.Load(xmlName);
         XmlNodeList xmlNodeList = xml.SelectSingleNode("root").SelectNodes("officialposition");
 
@@ -18,9 +20,11 @@ public class OfficialPositionMapper
         int i = 0;
         foreach (XmlNode officialPositionNode in xmlNodeList)
         {
-            officialPosition = new OfficialPosition();
-            officialPosition.Department = departmentList.FindDepartmentByName(officialPositionNode.SelectSingleNode("department").InnerText);
-            officialPosition.Description = officialPositionNode.SelectSingleNode("description").InnerText;
+            officialPosition = new OfficialPosition
+            {
+                Department = departmentList.FindDepartmentByName(officialPositionNode.SelectSingleNode("department").InnerText),
+                Description = officialPositionNode.SelectSingleNode("description").InnerText
+            };
             if (officialPositionNode.SelectSingleNode("isMaster").InnerText == "True")
             {
                 officialPosition.IsMaster = true;
@@ -31,12 +35,13 @@ public class OfficialPositionMapper
             }
             officialPosition.Level = int.Parse(officialPositionNode.SelectSingleNode("level").InnerText);
             officialPosition.Name = officialPositionNode.SelectSingleNode("name").InnerText;
+            //GD.Print(officialPosition.Name);
             officialPositionList.List.Add(officialPosition);
 
             i++;        
         }
 
-        officialPositionList.Num = i;
+
 
         // 概率信息
         i = 0;
@@ -48,7 +53,7 @@ public class OfficialPositionMapper
             officialPositionList.List[i].NextOfficialPositionProbability = new OfficialPositionProbability();
             foreach (XmlNode node in nextofficialpositionprobabilityNodeList)
             {
-               OfficialPosition nextOfficialPosition = new OfficialPosition();
+               OfficialPosition nextOfficialPosition = new();
                 nextOfficialPosition = officialPositionList.FindOfficialPositionByName(node.SelectSingleNode("officialposition").InnerText);
                 officialPositionList.List[i].NextOfficialPositionProbability.NextOfficialPosition.Add(nextOfficialPosition);
 
@@ -74,5 +79,6 @@ public class OfficialPositionMapper
             NodeUIMapper.LoadXML(officialPositionList.List[i].GradeNodeUI, UINode, colorList);
             i++;
         }
+        //GD.Print(officialPositionList.List[1].Name);
     }
 }

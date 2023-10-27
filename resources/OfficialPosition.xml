@@ -33,32 +33,33 @@
 
 		<UI>
 			<background>
-				<position>1000,1000</position>
+				<position>34,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>1000,1000</position>
+				<position>34,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
-				<text>白丁</text>
+				<pressedcolor>orange0</pressedcolor>
+				<text>百姓</text>
 				<textdirection>Vertical</textdirection>
 			</text>
 		</UI>
 
 		<GradeUI>
 			<background>
-				<position>33,32</position>
+				<position>34,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>33,32</position>
+				<position>34,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -102,18 +103,18 @@
 
 		<UI>
 			<background>
-				<position>33,33</position>
+				<position>32,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>33,33</position>
+				<position>32,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 				<text>白丁</text>
 				<textdirection>Vertical</textdirection>
 			</text>
@@ -121,14 +122,14 @@
 
 		<GradeUI>
 			<background>
-				<position>33,32</position>
+				<position>32,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>33,32</position>
+				<position>32,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -172,14 +173,14 @@
 
 		<UI>
 			<background>
-				<position>31,33</position>
+				<position>30,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>31,33</position>
+				<position>30,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -190,14 +191,14 @@
 
 		<GradeUI>
 			<background>
-				<position>31,32</position>
+				<position>30,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>31,32</position>
+				<position>30,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -241,14 +242,14 @@
 
 		<UI>
 			<background>
-				<position>29,33</position>
+				<position>28,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>29,33</position>
+				<position>28,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -259,14 +260,14 @@
 
 		<GradeUI>
 			<background>
-				<position>29,32</position>
+				<position>28,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>29,32</position>
+				<position>28,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -310,14 +311,14 @@
 
 		<UI>
 			<background>
-				<position>27,33</position>
+				<position>26,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>27,33</position>
+				<position>26,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -328,14 +329,14 @@
 
 		<GradeUI>
 			<background>
-				<position>27,32</position>
+				<position>26,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>27,32</position>
+				<position>26,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -379,14 +380,14 @@
 
 		<UI>
 			<background>
-				<position>25,33</position>
+				<position>24,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>25,33</position>
+				<position>24,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -397,14 +398,14 @@
 
 		<GradeUI>
 			<background>
-				<position>25,32</position>
+				<position>24,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>25,32</position>
+				<position>24,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -448,14 +449,14 @@
 
 		<UI>
 			<background>
-				<position>23,33</position>
+				<position>22,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>23,33</position>
+				<position>22,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -466,14 +467,14 @@
 
 		<GradeUI>
 			<background>
-				<position>23,32</position>
+				<position>22,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>23,32</position>
+				<position>22,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -517,14 +518,14 @@
 
 		<UI>
 			<background>
-				<position>21,33</position>
+				<position>20,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>21,33</position>
+				<position>20,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -535,14 +536,14 @@
 
 		<GradeUI>
 			<background>
-				<position>21,32</position>
+				<position>20,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>21,32</position>
+				<position>20,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -586,14 +587,14 @@
 
 		<UI>
 			<background>
-				<position>19,33</position>
+				<position>18,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>19,33</position>
+				<position>18,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -604,14 +605,14 @@
 
 		<GradeUI>
 			<background>
-				<position>19,32</position>
+				<position>18,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>19,32</position>
+				<position>18,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -655,14 +656,14 @@
 
 		<UI>
 			<background>
-				<position>17,33</position>
+				<position>16,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>17,33</position>
+				<position>16,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -673,14 +674,14 @@
 
 		<GradeUI>
 			<background>
-				<position>17,32</position>
+				<position>16,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>17,32</position>
+				<position>16,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -724,14 +725,14 @@
 
 		<UI>
 			<background>
-				<position>15,33</position>
+				<position>14,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>15,33</position>
+				<position>14,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -742,14 +743,14 @@
 
 		<GradeUI>
 			<background>
-				<position>15,32</position>
+				<position>14,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>15,32</position>
+				<position>14,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -793,14 +794,14 @@
 
 		<UI>
 			<background>
-				<position>13,33</position>
+				<position>12,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>13,33</position>
+				<position>12,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -811,14 +812,14 @@
 
 		<GradeUI>
 			<background>
-				<position>13,32</position>
+				<position>12,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>13,32</position>
+				<position>12,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -862,14 +863,14 @@
 
 		<UI>
 			<background>
-				<position>11,33</position>
+				<position>10,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>11,33</position>
+				<position>10,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -880,14 +881,14 @@
 
 		<GradeUI>
 			<background>
-				<position>11,32</position>
+				<position>10,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>11,32</position>
+				<position>10,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -931,14 +932,14 @@
 
 		<UI>
 			<background>
-				<position>9,33</position>
+				<position>8,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>9,33</position>
+				<position>8,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -949,14 +950,14 @@
 
 		<GradeUI>
 			<background>
-				<position>9,32</position>
+				<position>8,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>9,32</position>
+				<position>8,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -1000,14 +1001,14 @@
 
 		<UI>
 			<background>
-				<position>7,33</position>
+				<position>6,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>7,33</position>
+				<position>6,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -1018,14 +1019,14 @@
 
 		<GradeUI>
 			<background>
-				<position>7,32</position>
+				<position>6,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>7,32</position>
+				<position>6,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -1069,14 +1070,14 @@
 
 		<UI>
 			<background>
-				<position>5,33</position>
+				<position>4,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>5,33</position>
+				<position>4,33</position>
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -1087,14 +1088,14 @@
 
 		<GradeUI>
 			<background>
-				<position>5,32</position>
+				<position>4,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
-				<position>5,32</position>
+				<position>4,32</position>
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>black</color>
@@ -1142,7 +1143,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,22</position>
@@ -1160,7 +1161,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,22</position>
@@ -1211,7 +1212,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,24</position>
@@ -1229,7 +1230,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,24</position>
@@ -1280,7 +1281,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,26</position>
@@ -1298,7 +1299,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,26</position>
@@ -1349,7 +1350,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,28</position>
@@ -1367,7 +1368,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,28</position>
@@ -1418,7 +1419,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,30</position>
@@ -1436,7 +1437,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,30</position>
@@ -1487,7 +1488,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,16</position>
@@ -1505,7 +1506,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,16</position>
@@ -1556,7 +1557,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,18</position>
@@ -1574,7 +1575,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,18</position>
@@ -1625,7 +1626,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,20</position>
@@ -1643,7 +1644,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,20</position>
@@ -1694,7 +1695,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,24</position>
@@ -1712,7 +1713,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,24</position>
@@ -1763,7 +1764,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,26</position>
@@ -1781,7 +1782,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,26</position>
@@ -1832,7 +1833,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,28</position>
@@ -1850,7 +1851,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,28</position>
@@ -1901,7 +1902,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,30</position>
@@ -1919,7 +1920,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,30</position>
@@ -1970,7 +1971,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,2</position>
@@ -1988,7 +1989,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,2</position>
@@ -2039,7 +2040,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,4</position>
@@ -2057,7 +2058,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,4</position>
@@ -2108,7 +2109,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,6</position>
@@ -2126,7 +2127,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,6</position>
@@ -2177,7 +2178,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,8</position>
@@ -2195,7 +2196,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,8</position>
@@ -2246,7 +2247,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,10</position>
@@ -2264,7 +2265,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,10</position>
@@ -2315,7 +2316,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>0,12</position>
@@ -2333,7 +2334,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>7,12</position>
@@ -2384,7 +2385,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>30,1</position>
@@ -2402,7 +2403,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>30,0</position>
@@ -2453,7 +2454,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>28,1</position>
@@ -2471,7 +2472,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>28,0</position>
@@ -2522,7 +2523,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>26,1</position>
@@ -2540,7 +2541,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>26,0</position>
@@ -2591,7 +2592,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,1</position>
@@ -2609,7 +2610,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,0</position>
@@ -2660,7 +2661,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>22,1</position>
@@ -2678,7 +2679,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>22,0</position>
@@ -2729,7 +2730,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>20,1</position>
@@ -2747,7 +2748,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>20,0</position>
@@ -2798,7 +2799,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,1</position>
@@ -2816,7 +2817,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,0</position>
@@ -2867,7 +2868,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,1</position>
@@ -2885,7 +2886,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,0</position>
@@ -2936,7 +2937,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>12,1</position>
@@ -2954,7 +2955,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>12,0</position>
@@ -3005,7 +3006,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>10,1</position>
@@ -3023,7 +3024,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>10,0</position>
@@ -3074,7 +3075,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,1</position>
@@ -3092,7 +3093,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,0</position>
@@ -3143,7 +3144,7 @@
 				<size>6,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,18</position>
@@ -3161,7 +3162,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,18</position>
@@ -3212,7 +3213,7 @@
 				<size>6,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,20</position>
@@ -3230,7 +3231,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,20</position>
@@ -3281,7 +3282,7 @@
 				<size>6,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,22</position>
@@ -3299,7 +3300,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,22</position>
@@ -3350,7 +3351,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,10</position>
@@ -3368,7 +3369,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,10</position>
@@ -3419,7 +3420,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,12</position>
@@ -3437,7 +3438,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,12</position>
@@ -3488,7 +3489,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,14</position>
@@ -3506,7 +3507,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,14</position>
@@ -3557,7 +3558,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,16</position>
@@ -3575,7 +3576,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,16</position>
@@ -3626,7 +3627,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>25,18</position>
@@ -3644,7 +3645,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>24,18</position>
@@ -3695,7 +3696,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>20,9</position>
@@ -3713,7 +3714,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>20,8</position>
@@ -3764,7 +3765,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,9</position>
@@ -3782,7 +3783,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,8</position>
@@ -3833,7 +3834,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>16,9</position>
@@ -3851,7 +3852,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>16,8</position>
@@ -3902,7 +3903,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,9</position>
@@ -3920,7 +3921,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,8</position>
@@ -3971,7 +3972,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>12,9</position>
@@ -3989,7 +3990,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>12,8</position>
@@ -4040,7 +4041,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>10,9</position>
@@ -4058,7 +4059,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>10,8</position>
@@ -4109,7 +4110,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,9</position>
@@ -4127,7 +4128,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,8</position>
@@ -4178,7 +4179,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>20,25</position>
@@ -4196,7 +4197,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>20,24</position>
@@ -4247,7 +4248,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,25</position>
@@ -4265,7 +4266,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,24</position>
@@ -4316,7 +4317,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>16,25</position>
@@ -4334,7 +4335,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>16,24</position>
@@ -4385,7 +4386,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,25</position>
@@ -4403,7 +4404,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>14,24</position>
@@ -4454,7 +4455,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>12,25</position>
@@ -4472,7 +4473,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>12,24</position>
@@ -4523,7 +4524,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>10,25</position>
@@ -4541,7 +4542,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>10,24</position>
@@ -4592,7 +4593,7 @@
 				<size>2,7</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,25</position>
@@ -4610,7 +4611,7 @@
 				<size>2,1</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>8,24</position>
@@ -4661,7 +4662,7 @@
 				<size>3,6</size>
 				<scale>1,1</scale>
 				<color>red</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>18,18</position>
@@ -4679,7 +4680,7 @@
 				<size>3,1</size>
 				<scale>1,1</scale>
 				<color>red</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>-10000,-10000</position>
@@ -4730,7 +4731,7 @@
 				<size>3,6</size>
 				<scale>1,1</scale>
 				<color>red</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>21,18</position>
@@ -4748,7 +4749,7 @@
 				<size>3,1</size>
 				<scale>1,1</scale>
 				<color>red</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>-10000,-10000</position>
@@ -4799,7 +4800,7 @@
 				<size>3,6</size>
 				<scale>1,1</scale>
 				<color>red</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>15,18</position>
@@ -4817,7 +4818,7 @@
 				<size>3,1</size>
 				<scale>1,1</scale>
 				<color>red</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>-10000,-10000</position>
@@ -4868,7 +4869,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,10</position>
@@ -4886,7 +4887,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,10</position>
@@ -4937,7 +4938,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,12</position>
@@ -4955,7 +4956,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,12</position>
@@ -5006,7 +5007,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,14</position>
@@ -5024,7 +5025,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,14</position>
@@ -5075,7 +5076,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,16</position>
@@ -5093,7 +5094,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,16</position>
@@ -5144,7 +5145,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,18</position>
@@ -5162,7 +5163,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
-				<pressedcolor></pressedcolor>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,18</position>
@@ -5213,6 +5214,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>gold2</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,22</position>
@@ -5230,6 +5232,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>gold3</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,22</position>
@@ -5280,6 +5283,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,24</position>
@@ -5297,6 +5301,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,24</position>
@@ -5347,6 +5352,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,26</position>
@@ -5364,6 +5370,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,26</position>
@@ -5414,6 +5421,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,28</position>
@@ -5431,6 +5439,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,28</position>
@@ -5481,6 +5490,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>green2</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>33,30</position>
@@ -5498,6 +5508,7 @@
 				<size>1,2</size>
 				<scale>1,1</scale>
 				<color>green3</color>
+				<pressedcolor>orange0</pressedcolor>
 			</background>
 			<text>
 				<position>32,30</position>

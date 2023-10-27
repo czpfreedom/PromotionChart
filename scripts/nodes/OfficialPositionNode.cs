@@ -27,8 +27,10 @@ public partial class OfficialPositionNode : ChartNode
                 {
 					pressTimeSign = 0;
                     pressTimer.Start();
-					GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode = this;
-					GD.Print(this.Name);
+                    GetParent<ChartSceneNode>().GetParent<GameScene>().ReturnOriginFromPressedOfficialPositionNode = GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode;
+                    GetParent<ChartSceneNode>().GetParent<GameScene>().PressedOfficialPositionNode = this;
+                    GD.Print(this.Name);
+                    //GD.Print(GetParent<ChartSceneNode>().GetParent<GameScene>().ReturnOriginFromPressedOfficialPositionNode.Name);
                 }
             }
         }
@@ -47,4 +49,13 @@ public partial class OfficialPositionNode : ChartNode
 	public void OnPressTimerTimeout() {
 		pressTimeSign = 1;
 	}
+
+	public void SetColorPressed() {
+        GetNode<Node2D>("BackGround").GetNode<ColorRect>("ColorRect").Set("color", OfficialPosition.PositionNodeUI.BackGroundPressedColor);
+	}
+
+    public void SetColorNotPressed()
+    {
+        GetNode<Node2D>("BackGround").GetNode<ColorRect>("ColorRect").Set("color", OfficialPosition.PositionNodeUI.BackGroundColor);
+    }
 }

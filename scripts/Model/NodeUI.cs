@@ -11,6 +11,8 @@ public partial class NodeUI
 
     public string BackGroundColor = "#000000";
 
+    public string BackGroundPressedColor = "#000000";
+
     public Vector2 TextSize = new();
 
     public Vector2 TextPosition = new();

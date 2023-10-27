@@ -12,6 +12,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>1000,1000</position>
@@ -34,6 +35,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>24,20</position>
@@ -55,6 +57,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>0,22</position>
@@ -76,6 +79,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>0,14</position>
@@ -97,6 +101,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>0,0</position>
@@ -118,6 +123,7 @@
 				<size>2,8</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>32,0</position>
@@ -139,6 +145,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>32,8</position>
@@ -160,6 +167,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>32,20</position>
@@ -181,6 +189,7 @@
 				<size>2,8</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>16,0</position>
@@ -202,6 +211,7 @@
 				<size>7,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>8,16</position>
@@ -223,6 +233,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>24,8</position>
@@ -244,6 +255,7 @@
 				<size>2,8</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>22,8</position>
@@ -265,6 +277,7 @@
 				<size>2,8</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>22,24</position>
@@ -286,6 +299,7 @@
 				<size>9,2</size>
 				<scale>1,1</scale>
 				<color>red</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>15,16</position>
@@ -307,6 +321,7 @@
 				<size>8,2</size>
 				<scale>1,1</scale>
 				<color>purple</color>
+				<pressedcolor></pressedcolor>
 			</background>
 			<text>
 				<position>1000,1000</position>

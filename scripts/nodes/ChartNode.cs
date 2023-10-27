@@ -24,7 +24,6 @@ public partial class ChartNode : Node2D
         Position = nodeUI.BackGroundPosition*Config.ChartSize;
         Scale = nodeUI.BackGroundScale*5;
 
-        GD.Print(nodeUI.BackGroundScale);
         colorRect.Set("size", nodeUI.BackGroundSize*Config.ChartSize);
         colorRect.Set("color", nodeUI.BackGroundColor);
 
@@ -44,7 +43,7 @@ public partial class ChartNode : Node2D
     }
 
     private string HorizontalToVertical(string text) {
-        StringBuilder output = new StringBuilder();
+        StringBuilder output = new();
 
         foreach (char c in text)
         {

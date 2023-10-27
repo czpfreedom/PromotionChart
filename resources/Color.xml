@@ -44,6 +44,11 @@
 		<name>orange</name>
 		<value>#ffc000ff</value>
 	</color>
+
+	<color>
+		<name>orange0</name>
+		<value>#ed7d31ff</value>
+	</color>
 	
 	<color>
 		<name>purple</name>

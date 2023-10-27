@@ -3,29 +3,39 @@ using System;
 
 public partial class GameScene : Node2D
 {
-    private ColorList colorList;
+
     private GameState gameState;
 	private ChartSceneNode chartSceneNode;
     private Hud hudNode;
     private Timer StartTimer;
 
     public OfficialPositionNode PressedOfficialPositionNode;
+    public OfficialPositionNode ReturnOriginFromPressedOfficialPositionNode;
 
+    private ColorList colorList;
+    private OfficialPositionList officialPositionList;
+    private DepartmentList departmentList;
 
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
 	{
-        colorList= new ColorList();
+        colorList= new();
         ColorListMapper.LoadXML(colorList, "D:/godot/PromotionChart/resources/Color.xml");
+        departmentList = new ();
+        DepartmentMapper.LoadXML(departmentList, "D:/godot/PromotionChart/resources/Department.xml", colorList);
+        officialPositionList = new ();
+        OfficialPositionMapper.LoadXML(departmentList, officialPositionList, "D:/godot/PromotionChart/resources/OfficialPosition.xml", colorList);
 
-        gameState = new GameState();
-		gameState.InitForTest(colorList);
+        gameState = new();
+		gameState.InitForTest(colorList,officialPositionList);
         chartSceneNode = (ChartSceneNode)GetNode<ChartSceneNode>("ChartScene");
         hudNode = (Hud)GetNode<Hud>("hud");
         StartTimer = (Timer)GetNode<Timer>("StartTimer");
 
         StartTimer.Start();
+        PressedOfficialPositionNode = null;
+        ReturnOriginFromPressedOfficialPositionNode = null;
     }
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -72,6 +82,8 @@ public partial class GameScene : Node2D
     {
         hudNode.ShowStateLabel(gameState.GetStateLabelMessage());
         hudNode.ShowMoneyLabel(gameState.GetMoneyLabelMessage());
+        PressedOfficialPositionNode?.SetColorPressed();
+        ReturnOriginFromPressedOfficialPositionNode?.SetColorNotPressed();
         if (gameState.RoundState == Config.RoundState.ChooseAMember) {
             ChooseAMemberProcess();
         }

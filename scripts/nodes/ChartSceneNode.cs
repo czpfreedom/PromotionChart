@@ -36,6 +36,9 @@ public partial class ChartSceneNode : Node2D
 
         officialPositionList = new OfficialPositionList();
         OfficialPositionMapper.LoadXML(departmentList, officialPositionList, "D:/godot/PromotionChart/resources/OfficialPosition.xml", colorList);
+        GD.Print(1);
+        GD.Print(officialPositionList.List[1].Name );
+        //GD.Print((officialPositionList.List[1].Name=="BaiDing"));
         SetOfficialPosition(officialPositionList);
         SetGrave(officialPositionList);
 
@@ -58,8 +61,8 @@ public partial class ChartSceneNode : Node2D
     }
 
     public void SetOfficialPosition(OfficialPositionList officialPositionList) {
-        officialPositionNode = new OfficialPositionNode[officialPositionList.Num];
-        for (int i = 0; i < officialPositionList.Num; i++) {
+        officialPositionNode = new OfficialPositionNode[officialPositionList.List.Count];
+        for (int i = 0; i < officialPositionList.List.Count; i++) {
             officialPositionNode[i] = (OfficialPositionNode)OfficialPositionScene.Instantiate();
             officialPositionNode[i].Name = "OfficialPosition" +i.ToString();
             officialPositionNode[i].Set(officialPositionList.List[i].PositionNodeUI);
@@ -68,8 +71,8 @@ public partial class ChartSceneNode : Node2D
         }
     }
     public void SetGrave(OfficialPositionList officialPositionList) {
-        graveNode = new GraveNode[officialPositionList.Num];
-        for (int i = 0;i < officialPositionList.Num;i++)
+        graveNode = new GraveNode[officialPositionList.List.Count];
+        for (int i = 0;i < officialPositionList.List.Count;i++)
         {
             graveNode[i]=(GraveNode)GraveScene.Instantiate();
             graveNode[i].Name = "Grave"+i.ToString();
