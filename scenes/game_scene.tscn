@@ -12,7 +12,6 @@ script = ExtResource("1_qplir")
 [node name="hud" parent="." instance=ExtResource("3_w3jxw")]
 
 [node name="StartTimer" type="Timer" parent="."]
-wait_time = 3.0
 one_shot = true
 
 [node name="ChooseMemberTimer" type="Timer" parent="."]

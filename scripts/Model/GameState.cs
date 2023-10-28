@@ -9,7 +9,7 @@ public partial class GameState
     private int round;
     private int turnInRound;
     private Player presentPlayer;
-    public Member ChoosedMember;
+    public Member ChosenMember;
 
     private Config.RoundState roundState;
 
@@ -26,7 +26,7 @@ public partial class GameState
     public int TurnInRound { get => turnInRound; set => turnInRound = value; }
     public Dice Dice { get => dice; set => dice = value; }
 
-    public void InitForTest(ColorList colorList, OfficialPositionList officialPositionList) { 
+    public void InitForTest(ColorList colorList, OfficialPositionList officialPositionList, Dice dice) {
         teamList = new TeamList(3,2);
         teamList.List[0].Name = "红队";
         teamList.List[1].Name = "绿队";
@@ -63,6 +63,8 @@ public partial class GameState
                 }
             }
         }
+        //GD.Print(presentPlayer.MemberList[0].OfficialPosition.Name);
+        this.dice = dice;
     }
 
     public String GetMoneyLabelMessage() {
@@ -105,5 +107,26 @@ public partial class GameState
             return "查看结果中";
         }
         return message;
+    }
+
+    public void ConfirmButtonPressed(GameScene gameScene) {
+        if (RoundState == Config.RoundState.ChooseAMember)
+        {
+            ChosenMember = PresentPlayer.FindMemberFromOfficialPosition(gameScene.PressedOfficialPositionNode.OfficialPosition);
+            RoundState = Config.RoundState.RollDice;
+        }
+    }
+
+    public void DiceButtonPressed(GameScene gameScene) {
+        if (RoundState == Config.RoundState.RollDice)
+        {
+            /*
+            GD.Print(ChosenMember.OfficialPosition.Chinesename);
+            GD.Print(gameScene.officialPositionList.List[0].Name);
+            GD.Print(ChosenMember.OfficialPosition.NextOfficialPositionProbability.Probability[0]);
+            */
+            Dice.GetNextState(gameScene.officialPositionList, ChosenMember.OfficialPosition);
+            RoundState = Config.RoundState.MoveMentAndOtherResult;
+        }
     }
 }

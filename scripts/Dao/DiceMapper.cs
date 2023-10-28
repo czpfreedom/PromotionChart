@@ -5,11 +5,12 @@ using System.Xml;
 
 public class DiceMapper
 {
-    public void LoadXML(Dice diceList, string xmlName)
+    public static void LoadXML(Dice diceList, string xmlName)
     {
         XmlDocument xml = new();
         xml.Load(xmlName);
         XmlNodeList xmlNodeList = xml.SelectSingleNode("root").SelectNodes("side");
+        
 
         int i = 0;
         foreach (XmlNode color in xmlNodeList)

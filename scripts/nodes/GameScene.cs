@@ -12,11 +12,11 @@ public partial class GameScene : Node2D
     public OfficialPositionNode PressedOfficialPositionNode;
     public OfficialPositionNode ReturnOriginFromPressedOfficialPositionNode;
 
-
-
     private ColorList colorList;
-    private OfficialPositionList officialPositionList;
+    public OfficialPositionList officialPositionList;
     private DepartmentList departmentList;
+
+    public Member ChosenMember;
 
 
     // Called when the node enters the scene tree for the first time.
@@ -28,10 +28,17 @@ public partial class GameScene : Node2D
         DepartmentMapper.LoadXML(departmentList, "D:/godot/PromotionChart/resources/Department.xml", colorList);
         officialPositionList = new ();
         OfficialPositionMapper.LoadXML(departmentList, officialPositionList, "D:/godot/PromotionChart/resources/OfficialPosition.xml", colorList);
+        Dice dice = new();
+        DiceMapper.LoadXML(dice, "D:/godot/PromotionChart/resources/Dice.xml");
 
         gameState = new();
-		gameState.InitForTest(colorList,officialPositionList);
+        gameState.InitForTest(colorList,officialPositionList,dice);
         chartSceneNode = (ChartSceneNode)GetNode<ChartSceneNode>("ChartScene");
+
+        officialPositionList.List[0].Print();
+
+        //GD.Print(officialPositionList.List[0].NextOfficialPositionProbability.Probability[0]);
+
         hudNode = (Hud)GetNode<Hud>("hud");
         StartTimer = (Timer)GetNode<Timer>("StartTimer");
 

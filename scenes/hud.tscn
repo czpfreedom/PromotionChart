@@ -50,4 +50,5 @@ offset_bottom = 390.0
 text = "确定
 "
 
+[connection signal="pressed" from="DiceButton" to="." method="OnDiceButtonPressed"]
 [connection signal="pressed" from="ConfirmButton" to="." method="OnConfirmButtonPressed"]

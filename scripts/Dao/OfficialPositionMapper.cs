@@ -24,6 +24,7 @@ public class OfficialPositionMapper
             {
                 Department = departmentList.FindDepartmentByName(officialPositionNode.SelectSingleNode("department").InnerText.Replace(" ", "")),
                 Description = officialPositionNode.SelectSingleNode("description".Replace(" ", "")).InnerText
+                //NextOfficialPositionProbability = new OfficialPositionProbability()
             };
             if (officialPositionNode.SelectSingleNode("isMaster").InnerText == "True")
             {
@@ -48,20 +49,17 @@ public class OfficialPositionMapper
         
         foreach (XmlNode officialPositionNode in xmlNodeList)
         {
-            int j = 0;
-            XmlNodeList nextofficialpositionprobabilityNodeList = officialPositionNode.SelectNodes("officialpositionprobability");
+            XmlNodeList nextofficialpositionprobabilityNodeList = officialPositionNode.SelectSingleNode("nextofficialpositionprobability").SelectNodes("officialpositionprobability");
             officialPositionList.List[i].NextOfficialPositionProbability = new OfficialPositionProbability();
             foreach (XmlNode node in nextofficialpositionprobabilityNodeList)
             {
-               OfficialPosition nextOfficialPosition = new();
+                OfficialPosition nextOfficialPosition = new();
                 nextOfficialPosition = officialPositionList.FindOfficialPositionByName(node.SelectSingleNode("officialposition").InnerText);
                 officialPositionList.List[i].NextOfficialPositionProbability.NextOfficialPosition.Add(nextOfficialPosition);
 
                 float nextOfficialPositionProbability = float.Parse(node.SelectSingleNode("probability").InnerText);
                 officialPositionList.List[i].NextOfficialPositionProbability.Probability.Add(nextOfficialPositionProbability);
-                j++;
             }
-            officialPositionList.List[i].NextOfficialPositionProbability.Num = j;
             i++;
         }
 

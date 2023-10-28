@@ -36,6 +36,11 @@ public partial class Hud : CanvasLayer
     }
 
 	public void OnConfirmButtonPressed() {
+        GetParent<GameScene>().gameState.ConfirmButtonPressed(GetParent<GameScene>());
+    }
+
+	public void OnDiceButtonPressed() {
+		GetParent<GameScene>().gameState.DiceButtonPressed(GetParent<GameScene>());
 
     }
 }

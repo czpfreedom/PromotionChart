@@ -5,8 +5,8 @@ using System;
 
 public class Dice 
 {
-    List<string> description;
-    List<float> probability;
+    List<string> description = new List<string>();
+    List<float> probability = new List<float>();
 
     private string state;
 
@@ -23,6 +23,7 @@ public class Dice
         return -1;
     }
 
+    /*
     public string GetNextState (OfficialPosition officialPosition) {
         float[] nowProbability = new float[this.description.Count];
         for (int i = 0; i < this.description.Count; i++) {
@@ -39,4 +40,26 @@ public class Dice
         }
         return null;
     }
+    */
+    public OfficialPosition GetNextState(OfficialPositionList officialPositionList, OfficialPosition officialPosition)
+    {
+        float[] nowProbability = new float[this.description.Count];
+        for (int i = 0; i < this.description.Count; i++)
+        {
+            nowProbability[i] = (officialPosition.NextOfficialPositionProbability.Probability[i] + this.Probability[i]) / 2;
+        }
+        Random rand = new(Guid.NewGuid().GetHashCode());
+        float randNum = (float)rand.NextDouble();
+        float sumProbability = 0;
+        for (int i = 0; i < this.description.Count; i++)
+        {
+            sumProbability += nowProbability[i];
+            if (randNum < sumProbability)
+            {
+                return officialPositionList.FindOfficialPositionByName(this.description[i]);
+            }
+        }
+        return null;
+    }
+
 }
