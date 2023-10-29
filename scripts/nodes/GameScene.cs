@@ -8,6 +8,7 @@ public partial class GameScene : Node2D
 	private ChartSceneNode chartSceneNode;
     private Hud hudNode;
     private Timer StartTimer;
+    public Timer ResultTimer;
 
     public OfficialPositionNode PressedOfficialPositionNode;
     public OfficialPositionNode ReturnOriginFromPressedOfficialPositionNode;
@@ -35,12 +36,10 @@ public partial class GameScene : Node2D
         gameState.InitForTest(colorList,officialPositionList,dice);
         chartSceneNode = (ChartSceneNode)GetNode<ChartSceneNode>("ChartScene");
 
-        officialPositionList.List[0].Print();
-
-        //GD.Print(officialPositionList.List[0].NextOfficialPositionProbability.Probability[0]);
 
         hudNode = (Hud)GetNode<Hud>("hud");
         StartTimer = (Timer)GetNode<Timer>("StartTimer");
+        ResultTimer = (Timer)GetNode<Timer>("ResultTimer");
 
         chartSceneNode.SetChartScenNode(colorList,departmentList,officialPositionList);
 
@@ -93,6 +92,7 @@ public partial class GameScene : Node2D
     {
         hudNode.ShowStateLabel(gameState.GetStateLabelMessage());
         hudNode.ShowMoneyLabel(gameState.GetMoneyLabelMessage());
+        hudNode.ShowDiceLabel(gameState.GetDiceMessage());
         PressedOfficialPositionNode?.SetColorPressed();
         ReturnOriginFromPressedOfficialPositionNode?.SetColorNotPressed();
         if (gameState.RoundState == Config.RoundState.ChooseAMember) {
@@ -120,6 +120,12 @@ public partial class GameScene : Node2D
         gameState.RoundState = Config.RoundState.RollDice;
     }
 
+    public void OnResultTimerTimeout()
+    {
+        gameState.UpdateNextPresentPlayer();
+        gameState.RoundState = Config.RoundState.ChooseAMember;
+    }
+
     private void ChooseAMemberProcess() {
         
     }
@@ -143,4 +149,6 @@ public partial class GameScene : Node2D
             }
         }
     }
+
+
 }

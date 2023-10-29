@@ -6,8 +6,10 @@ using System;
 public class PlayerOrder 
 {
     List<Player> order;
+    int presentOrder;
 
     public List<Player> Order { get => order; set => order = value; }
+    public int PresentOrder { get => presentOrder; set => presentOrder = value; }
 
     public PlayerOrder(int num) {
         this.Order = new List<Player>();   
@@ -16,5 +18,6 @@ public class PlayerOrder
             Player player = new Player();
             order.Add(player);
         }
+        presentOrder= 0;
     }
 }

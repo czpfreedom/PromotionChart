@@ -37,10 +37,13 @@ public partial class Hud : CanvasLayer
 
 	public void OnConfirmButtonPressed() {
         GetParent<GameScene>().gameState.ConfirmButtonPressed(GetParent<GameScene>());
+
     }
 
 	public void OnDiceButtonPressed() {
-		GetParent<GameScene>().gameState.DiceButtonPressed(GetParent<GameScene>());
-
+        GetParent<GameScene>().ReturnOriginFromPressedOfficialPositionNode = GetParent<GameScene>().PressedOfficialPositionNode;
+        GetParent<GameScene>().PressedOfficialPositionNode = null;
+        GetParent<GameScene>().gameState.DiceButtonPressed(GetParent<GameScene>());
+        GetParent<GameScene>().ResultTimer.Start();
     }
 }

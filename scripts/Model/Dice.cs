@@ -56,7 +56,8 @@ public class Dice
             sumProbability += nowProbability[i];
             if (randNum < sumProbability)
             {
-                return officialPositionList.FindOfficialPositionByName(this.description[i]);
+                state = this.description[i];
+                return officialPosition.NextOfficialPositionProbability.NextOfficialPosition[i];
             }
         }
         return null;

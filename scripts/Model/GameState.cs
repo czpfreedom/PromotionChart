@@ -17,6 +17,7 @@ public partial class GameState
 
     private Dice dice;
 
+
     public TeamList TeamList { get => teamList; set => teamList = value; }
     public PlayerOrder PlayerOrder { get => playerOrder; set => playerOrder = value; }
     public int Round { get => round; set => round = value; }
@@ -86,7 +87,7 @@ public partial class GameState
     }
 
     public String GetDiceMessage() {
-        String message = "";
+        String message = "骰子的结果是:"+dice.State;
 
 
         return message;
@@ -120,13 +121,13 @@ public partial class GameState
     public void DiceButtonPressed(GameScene gameScene) {
         if (RoundState == Config.RoundState.RollDice)
         {
-            /*
-            GD.Print(ChosenMember.OfficialPosition.Chinesename);
-            GD.Print(gameScene.officialPositionList.List[0].Name);
-            GD.Print(ChosenMember.OfficialPosition.NextOfficialPositionProbability.Probability[0]);
-            */
-            Dice.GetNextState(gameScene.officialPositionList, ChosenMember.OfficialPosition);
+            ChosenMember.OfficialPosition = Dice.GetNextState(gameScene.officialPositionList, ChosenMember.OfficialPosition);
             RoundState = Config.RoundState.MoveMentAndOtherResult;
         }
+    }
+
+    public void UpdateNextPresentPlayer() {
+        playerOrder.PresentOrder = (playerOrder.PresentOrder + 1) % (playerOrder.Order.Count);
+        presentPlayer = playerOrder.Order[playerOrder.PresentOrder];
     }
 }
