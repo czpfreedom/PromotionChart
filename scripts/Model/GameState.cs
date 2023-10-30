@@ -123,11 +123,52 @@ public partial class GameState
         {
             ChosenMember.OfficialPosition = Dice.GetNextState(gameScene.officialPositionList, ChosenMember.OfficialPosition);
             RoundState = Config.RoundState.MoveMentAndOtherResult;
+            UpdateMoney();
         }
     }
 
     public void UpdateNextPresentPlayer() {
         playerOrder.PresentOrder = (playerOrder.PresentOrder + 1) % (playerOrder.Order.Count);
         presentPlayer = playerOrder.Order[playerOrder.PresentOrder];
+    }
+
+    public void UpdateMoney() {
+        //遍历，除了自身全部遍历一遍
+        for (int i = 0; i < teamList.List.Count; i++) {
+            for (int j = 0; j < teamList.List[i].PlayerList.Count; j++) {
+                for (int k = 0; k < teamList.List[i].PlayerList[j].MemberList.Count; k++) {
+                    if (teamList.List[i].PlayerList[j].MemberList[k] != ChosenMember) {
+                        UpdateMoneyOnePlayerToAnother(presentPlayer, teamList.List[i].PlayerList[j], ChosenMember, teamList.List[i].PlayerList[j].MemberList[k]);
+                    }
+                }
+            }
+        }
+    }
+
+    // Alice是当前回合的官员，Bob是非当前回合的
+    public static void UpdateMoneyOnePlayerToAnother(Player playerAlice, Player playerBob, Member memberAlice, Member memberBob)
+    {
+        //未中狀元者,與出任者,與未出任者,具送禮雙分
+        if (memberAlice.OfficialPosition.Name == "ZhuangYuan") {
+            if (memberBob.OfficialPosition.Name!= "ZhuangYuan") {
+                playerAlice.Money -= 10;
+                playerBob.Money += 10;
+            }
+        }
+
+        //同衙門者,小與大送禮,後與先送禮,具一分
+        if (memberAlice.OfficialPosition.Department.Name.Equals(memberBob.OfficialPosition.Department.Name)&&(memberAlice.OfficialPosition.Department.Name!= "WeiZuoGuan")) {
+            GD.Print(memberAlice.OfficialPosition.Department.Name);
+            if (memberAlice.OfficialPosition.Level <= memberBob.OfficialPosition.Level) {
+                playerAlice.Money -= 5;
+                playerBob.Money += 5;
+            }
+
+            if (memberAlice.OfficialPosition.Level > memberBob.OfficialPosition.Level)
+            {
+                playerAlice.Money += 5;
+                playerBob.Money -= 5;
+            }
+        }
     }
 }
