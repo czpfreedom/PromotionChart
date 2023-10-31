@@ -1,8 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://bx3woas6vjqi4"]
+[gd_scene load_steps=3 format=3 uid="uid://bx3woas6vjqi4"]
 
-[ext_resource type="PackedScene" uid="uid://bv47jqrwgscyt" path="res://scenes/chart_scene.tscn" id="1_dqk67"]
+[ext_resource type="Script" path="res://scripts/nodes/MainScene.cs" id="1_ck61t"]
+[ext_resource type="PackedScene" uid="uid://4l8k76si7nbo" path="res://scenes/game_scene.tscn" id="2_tvok0"]
 
 [node name="MainScene" type="Node2D"]
 position = Vector2(67, 43)
+script = ExtResource("1_ck61t")
+GameScene = ExtResource("2_tvok0")
 
-[node name="ChartScene" parent="." instance=ExtResource("1_dqk67")]
+[node name="ItemList" type="ItemList" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+item_count = 2
+item_0/text = "1"
+item_1/text = "2"

@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://cf35q2lsgq2vk"]
+
+[ext_resource type="Script" path="res://scripts/nodes/InitScene.cs" id="1_uyi3j"]
+
+[node name="InitScene" type="Node2D"]
+script = ExtResource("1_uyi3j")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 50.0
+offset_top = 70.0
+offset_right = 130.0
+offset_bottom = 100.0
+text = "玩家数量："
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayerNumText" type="LineEdit" parent="."]
+offset_left = 140.0
+offset_top = 70.0
+offset_right = 210.0
+offset_bottom = 101.0
