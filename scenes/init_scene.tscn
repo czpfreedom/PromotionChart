@@ -5,17 +5,100 @@
 [node name="InitScene" type="Node2D"]
 script = ExtResource("1_uyi3j")
 
-[node name="Label" type="Label" parent="."]
+[node name="SelectNodeOne" type="Node2D" parent="."]
+
+[node name="TeamNumText" type="Node2D" parent="SelectNodeOne"]
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeOne/TeamNumText"]
+offset_left = 140.0
+offset_top = 70.0
+offset_right = 210.0
+offset_bottom = 110.0
+text = "2"
+
+[node name="Text" type="Label" parent="SelectNodeOne/TeamNumText"]
 offset_left = 50.0
 offset_top = 70.0
 offset_right = 130.0
-offset_bottom = 100.0
+offset_bottom = 110.0
+text = "队伍数量："
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayerNumText" type="Node2D" parent="SelectNodeOne"]
+position = Vector2(201, 0)
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeOne/PlayerNumText"]
+offset_left = 140.0
+offset_top = 70.0
+offset_right = 210.0
+offset_bottom = 110.0
+text = "1"
+
+[node name="Text" type="Label" parent="SelectNodeOne/PlayerNumText"]
+offset_left = 50.0
+offset_top = 70.0
+offset_right = 130.0
+offset_bottom = 110.0
 text = "玩家数量："
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="PlayerNumText" type="LineEdit" parent="."]
+[node name="MemberNumText" type="Node2D" parent="SelectNodeOne"]
+position = Vector2(400, 0)
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeOne/MemberNumText"]
 offset_left = 140.0
 offset_top = 70.0
 offset_right = 210.0
-offset_bottom = 101.0
+offset_bottom = 110.0
+text = "1"
+
+[node name="Text" type="Label" parent="SelectNodeOne/MemberNumText"]
+offset_left = 50.0
+offset_top = 70.0
+offset_right = 130.0
+offset_bottom = 110.0
+text = "成员数量："
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ConfirmButton" type="Button" parent="SelectNodeOne"]
+offset_left = 900.0
+offset_top = 70.0
+offset_right = 1000.0
+offset_bottom = 110.0
+text = "确定"
+
+[node name="InitMoney" type="Node2D" parent="SelectNodeOne"]
+position = Vector2(600, 0)
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeOne/InitMoney"]
+offset_left = 140.0
+offset_top = 70.0
+offset_right = 210.0
+offset_bottom = 110.0
+text = "100"
+
+[node name="Text" type="Label" parent="SelectNodeOne/InitMoney"]
+offset_left = 50.0
+offset_top = 70.0
+offset_right = 130.0
+offset_bottom = 110.0
+text = "初始金钱："
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SelectNodeSecond" type="Node2D" parent="."]
+
+[node name="Team1" type="Node2D" parent="SelectNodeSecond"]
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1"]
+offset_left = 50.0
+offset_top = 150.0
+offset_right = 130.0
+offset_bottom = 190.0
+text = "队伍1："
+vertical_alignment = 1
+
+[connection signal="pressed" from="SelectNodeOne/ConfirmButton" to="." method="OnSelectNodeOneConfirmButtonPressed"]
