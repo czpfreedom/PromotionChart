@@ -36,6 +36,7 @@ public partial class GameScene : Node2D
         data = GetNode<Data>("/root/Data");
 
         gameState = new();
+
         //gameState.InitForTest(colorList,officialPositionList,dice);
         gameState.InitForData(data, colorList, officialPositionList, dice);
         chartSceneNode = (ChartSceneNode)GetNode<ChartSceneNode>("ChartScene");

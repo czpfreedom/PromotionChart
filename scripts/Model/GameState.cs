@@ -60,24 +60,44 @@ public partial class GameState
             for (int j = 0; j < teamList.List[i].PlayerList.Count; j++) {
                 for (int k = 0; k < teamList.List[i].PlayerList[j].MemberList.Count; k++) {
                     teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition = officialPositionList.FindOfficialPositionByName("BaiXing");
-                    //GD.Print("!!!"+teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition.Name);
                 }
             }
         }
-        //GD.Print(presentPlayer.MemberList[0].OfficialPosition.Name);
         this.dice = dice;
     }
 
     public void InitForData(Data data, ColorList colorList, OfficialPositionList officialPositionList, Dice dice) {
         teamList = new TeamList(data.teamNum, data.playerNumPerTeam);
         playerOrder = new PlayerOrder(data.teamNum* data.playerNumPerTeam);
-        for (int i = 0; i < teamList.List.Count; i++ ) {
+
+        for (int i = 0; i < data.teamNum; i++ ) {
             teamList.List[i].Name = "队伍" + i;
-            for (int j = 0; j < teamList.List[i].PlayerList.Count;) {
+            for (int j = 0; j < data.playerNumPerTeam;j++) {
                 teamList.List[i].PlayerList[j] = new Player(data.memberNumPerPlayer, data.playerName[i* data.playerNumPerTeam+j], data.initMoney, colorList.FindValueByName("Red"));
                 PlayerOrder.Order[i * data.playerNumPerTeam + j] = teamList.List[i].PlayerList[j];
             }
         }
+
+        round = 0;
+        turnInRound = 0;
+
+        presentPlayer = playerOrder.Order[0];
+
+        roundState = Config.RoundState.ChooseAMember;
+
+        pauseState = Config.PauseState.Start;
+
+        for (int i = 0; i < teamList.List.Count; i++)
+        {
+            for (int j = 0; j < teamList.List[i].PlayerList.Count; j++)
+            {
+                for (int k = 0; k < teamList.List[i].PlayerList[j].MemberList.Count; k++)
+                {
+                    teamList.List[i].PlayerList[j].MemberList[k].OfficialPosition = officialPositionList.FindOfficialPositionByName("BaiXing");
+                }
+            }
+        }
+        this.dice = dice;
     }
 
     public String GetMoneyLabelMessage() {

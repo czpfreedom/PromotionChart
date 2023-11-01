@@ -1,11 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://cf35q2lsgq2vk"]
+[gd_scene load_steps=2 format=3 uid="uid://cf35q2lsgq2vk"]
 
 [ext_resource type="Script" path="res://scripts/nodes/InitScene.cs" id="1_uyi3j"]
-[ext_resource type="PackedScene" uid="uid://4l8k76si7nbo" path="res://scenes/game_scene.tscn" id="3_3w5yd"]
 
 [node name="InitScene" type="Node2D"]
 script = ExtResource("1_uyi3j")
-GameScene = ExtResource("3_3w5yd")
 
 [node name="SelectNodeOne" type="Node2D" parent="."]
 
@@ -599,13 +597,6 @@ offset_right = 1000.0
 offset_bottom = 510.0
 text = "确定"
 
-[node name="StartGameButton" type="Button" parent="."]
-offset_left = 1050.0
-offset_top = 520.0
-offset_right = 1150.0
-offset_bottom = 560.0
-text = "开始游戏"
-
 [node name="ReturnMainButton" type="Button" parent="."]
 offset_left = 1050.0
 offset_top = 20.0
@@ -613,7 +604,14 @@ offset_right = 1150.0
 offset_bottom = 60.0
 text = "返回"
 
+[node name="StartGameButton" type="Button" parent="."]
+offset_left = 1050.0
+offset_top = 520.0
+offset_right = 1150.0
+offset_bottom = 560.0
+text = "开始游戏"
+
 [connection signal="pressed" from="ConfirmButton" to="." method="OnSelectNodeOneConfirmButtonPressed"]
 [connection signal="pressed" from="SelectNodeSecond/ConfirmButton" to="." method="OnSelectNodeSecondConfirmButtonPressed"]
-[connection signal="pressed" from="StartGameButton" to="." method="OnStartGameButtonPressed"]
 [connection signal="pressed" from="ReturnMainButton" to="." method="OnReturnMainButtonPressed"]
+[connection signal="pressed" from="StartGameButton" to="." method="OnStartGameButtonPressed"]
