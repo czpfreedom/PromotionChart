@@ -1,9 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://cf35q2lsgq2vk"]
+[gd_scene load_steps=3 format=3 uid="uid://cf35q2lsgq2vk"]
 
 [ext_resource type="Script" path="res://scripts/nodes/InitScene.cs" id="1_uyi3j"]
+[ext_resource type="PackedScene" uid="uid://4l8k76si7nbo" path="res://scenes/game_scene.tscn" id="3_3w5yd"]
 
 [node name="InitScene" type="Node2D"]
 script = ExtResource("1_uyi3j")
+GameScene = ExtResource("3_3w5yd")
 
 [node name="SelectNodeOne" type="Node2D" parent="."]
 
@@ -63,13 +65,6 @@ text = "成员数量："
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ConfirmButton" type="Button" parent="SelectNodeOne"]
-offset_left = 900.0
-offset_top = 70.0
-offset_right = 1000.0
-offset_bottom = 110.0
-text = "确定"
-
 [node name="InitMoney" type="Node2D" parent="SelectNodeOne"]
 position = Vector2(600, 0)
 
@@ -89,6 +84,13 @@ text = "初始金钱："
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="ConfirmButton" type="Button" parent="."]
+offset_left = 900.0
+offset_top = 70.0
+offset_right = 1000.0
+offset_bottom = 110.0
+text = "确定"
+
 [node name="SelectNodeSecond" type="Node2D" parent="."]
 
 [node name="Team1" type="Node2D" parent="SelectNodeSecond"]
@@ -101,4 +103,517 @@ offset_bottom = 190.0
 text = "队伍1："
 vertical_alignment = 1
 
-[connection signal="pressed" from="SelectNodeOne/ConfirmButton" to="." method="OnSelectNodeOneConfirmButtonPressed"]
+[node name="Player11" type="Node2D" parent="SelectNodeSecond/Team1"]
+position = Vector2(50, 200)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player11"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家1："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team1/Player11"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player11/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team1/Player11/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "张三"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team1/Player11"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player11/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team1/Player11/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player12" type="Node2D" parent="SelectNodeSecond/Team1"]
+position = Vector2(50, 280)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player12"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家2："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team1/Player12"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player12/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team1/Player12/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "李四"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team1/Player12"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player12/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team1/Player12/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player13" type="Node2D" parent="SelectNodeSecond/Team1"]
+position = Vector2(50, 360)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player13"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家3："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team1/Player13"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player13/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team1/Player13/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "王五"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team1/Player13"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team1/Player13/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team1/Player13/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Team2" type="Node2D" parent="SelectNodeSecond"]
+position = Vector2(240, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2"]
+offset_left = 50.0
+offset_top = 150.0
+offset_right = 130.0
+offset_bottom = 190.0
+text = "队伍2："
+vertical_alignment = 1
+
+[node name="Player21" type="Node2D" parent="SelectNodeSecond/Team2"]
+position = Vector2(50, 200)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player21"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家1："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team2/Player21"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player21/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team2/Player21/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "张三三"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team2/Player21"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player21/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team2/Player21/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player22" type="Node2D" parent="SelectNodeSecond/Team2"]
+position = Vector2(50, 280)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player22"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家2："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team2/Player22"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player22/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team2/Player22/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "李四四"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team2/Player22"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player22/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team2/Player22/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player23" type="Node2D" parent="SelectNodeSecond/Team2"]
+position = Vector2(50, 360)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player23"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家3："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team2/Player23"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player23/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team2/Player23/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "王五五"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team2/Player23"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team2/Player23/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team2/Player23/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Team3" type="Node2D" parent="SelectNodeSecond"]
+position = Vector2(480, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3"]
+offset_left = 50.0
+offset_top = 150.0
+offset_right = 130.0
+offset_bottom = 190.0
+text = "队伍3："
+vertical_alignment = 1
+
+[node name="Player31" type="Node2D" parent="SelectNodeSecond/Team3"]
+position = Vector2(50, 200)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player31"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家1："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team3/Player31"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player31/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team3/Player31/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "赵六"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team3/Player31"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player31/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team3/Player31/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player32" type="Node2D" parent="SelectNodeSecond/Team3"]
+position = Vector2(50, 280)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player32"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家2："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team3/Player32"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player32/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team3/Player32/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "孙七"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team3/Player32"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player32/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team3/Player32/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player33" type="Node2D" parent="SelectNodeSecond/Team3"]
+position = Vector2(50, 360)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player33"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家3："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team3/Player33"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player33/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team3/Player33/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "周八"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team3/Player33"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team3/Player33/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team3/Player33/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Team4" type="Node2D" parent="SelectNodeSecond"]
+position = Vector2(720, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4"]
+offset_left = 50.0
+offset_top = 150.0
+offset_right = 130.0
+offset_bottom = 190.0
+text = "队伍4："
+vertical_alignment = 1
+
+[node name="Player41" type="Node2D" parent="SelectNodeSecond/Team4"]
+position = Vector2(50, 200)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player41"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家1："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team4/Player41"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player41/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team4/Player41/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "赵六六"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team4/Player41"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player41/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team4/Player41/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player42" type="Node2D" parent="SelectNodeSecond/Team4"]
+position = Vector2(50, 280)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player42"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家2："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team4/Player42"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player42/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team4/Player42/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "孙七七"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team4/Player42"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player42/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team4/Player42/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="Player43" type="Node2D" parent="SelectNodeSecond/Team4"]
+position = Vector2(50, 360)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player43"]
+offset_left = 20.0
+offset_right = 100.0
+offset_bottom = 40.0
+text = "玩家3："
+
+[node name="Name" type="Node2D" parent="SelectNodeSecond/Team4/Player43"]
+position = Vector2(80, 0)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player43/Name"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "姓名"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team4/Player43/Name"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+placeholder_text = "周八八"
+
+[node name="Color" type="Node2D" parent="SelectNodeSecond/Team4/Player43"]
+position = Vector2(80, 40)
+
+[node name="Text" type="Label" parent="SelectNodeSecond/Team4/Player43/Color"]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "颜色"
+
+[node name="LineEdit" type="LineEdit" parent="SelectNodeSecond/Team4/Player43/Color"]
+offset_left = 40.0
+offset_top = -5.0
+offset_right = 120.0
+offset_bottom = 26.0
+
+[node name="ConfirmButton" type="Button" parent="SelectNodeSecond"]
+offset_left = 900.0
+offset_top = 470.0
+offset_right = 1000.0
+offset_bottom = 510.0
+text = "确定"
+
+[node name="StartGameButton" type="Button" parent="."]
+offset_left = 1050.0
+offset_top = 520.0
+offset_right = 1150.0
+offset_bottom = 560.0
+text = "开始游戏"
+
+[node name="ReturnMainButton" type="Button" parent="."]
+offset_left = 1050.0
+offset_top = 20.0
+offset_right = 1150.0
+offset_bottom = 60.0
+text = "返回"
+
+[connection signal="pressed" from="ConfirmButton" to="." method="OnSelectNodeOneConfirmButtonPressed"]
+[connection signal="pressed" from="SelectNodeSecond/ConfirmButton" to="." method="OnSelectNodeSecondConfirmButtonPressed"]
+[connection signal="pressed" from="StartGameButton" to="." method="OnStartGameButtonPressed"]
+[connection signal="pressed" from="ReturnMainButton" to="." method="OnReturnMainButtonPressed"]

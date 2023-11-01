@@ -19,6 +19,7 @@ public partial class GameScene : Node2D
 
     public Member ChosenMember;
 
+    private Data data;
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
@@ -32,8 +33,11 @@ public partial class GameScene : Node2D
         Dice dice = new();
         DiceMapper.LoadXML(dice, "D:/godot/PromotionChart/resources/Dice.xml");
 
+        data = GetNode<Data>("/root/Data");
+
         gameState = new();
-        gameState.InitForTest(colorList,officialPositionList,dice);
+        //gameState.InitForTest(colorList,officialPositionList,dice);
+        gameState.InitForData(data, colorList, officialPositionList, dice);
         chartSceneNode = (ChartSceneNode)GetNode<ChartSceneNode>("ChartScene");
 
 

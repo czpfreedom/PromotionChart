@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <config>
 	<player>
-		<playermaxnum>10</playermaxnum>
-		<membermaxnum>10</membermaxnum>
+		<playermaxnum>6</playermaxnum>
+		<membermaxnum>4</membermaxnum>
 	</player>
 
 
