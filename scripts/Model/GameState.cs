@@ -69,9 +69,8 @@ public partial class GameState
     public void InitForData(Data data, ColorList colorList, OfficialPositionList officialPositionList, Dice dice) {
         teamList = new TeamList(data.teamNum, data.playerNumPerTeam);
         playerOrder = new PlayerOrder(data.teamNum* data.playerNumPerTeam);
-
         for (int i = 0; i < data.teamNum; i++ ) {
-            teamList.List[i].Name = "队伍" + i;
+            teamList.List[i].Name = data.teamName[i];
             for (int j = 0; j < data.playerNumPerTeam;j++) {
                 teamList.List[i].PlayerList[j] = new Player(data.memberNumPerPlayer, data.playerName[i* data.playerNumPerTeam+j], data.initMoney, colorList.FindValueByName("Red"));
                 PlayerOrder.Order[i * data.playerNumPerTeam + j] = teamList.List[i].PlayerList[j];

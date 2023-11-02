@@ -86,17 +86,18 @@ public partial class InitScene : Node2D
     }
 
     public void OnSelectNodeSecondConfirmButtonPressed() {
-        data.playerName = new List<string>();
-        data.playerColor = new List<string>();
+        data.SetNull();
         for (int i = 0; i < data.teamNum;) {
             i++;
             Node2D teamNode = SelectNodeSecond.GetNode<Node2D>("Team" + i);
+            string text1 = teamNode.GetNode<Node2D>("TeamName").GetNode<LineEdit>("LineEdit").Text;
+            data.teamName.Add(text1);
             for (int j = 0; j < data.playerNumPerTeam;)
             {
                 j++;
                 Node2D playerNode = teamNode.GetNode<Node2D>("Player" + i + j);
-                string text = playerNode.GetNode<Node2D>("Name").GetNode<LineEdit>("LineEdit").Text;
-                data.playerName.Add(text);
+                string text2 = playerNode.GetNode<Node2D>("Name").GetNode<LineEdit>("LineEdit").Text;
+                data.playerName.Add(text2);
             }
         }
         StartGameButton.Show();
