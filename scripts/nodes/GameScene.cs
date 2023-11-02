@@ -25,13 +25,14 @@ public partial class GameScene : Node2D
     public override void _Ready()
 	{
         colorList= new();
-        ColorListMapper.LoadXML(colorList, "D:/godot/PromotionChart/resources/Color.xml");
+        //ColorListMapper.LoadXML(colorList, "./resources/Color.xml");
+        ColorListMapper.LoadXML(colorList, "./resources/Color.xml");
         departmentList = new ();
-        DepartmentMapper.LoadXML(departmentList, "D:/godot/PromotionChart/resources/Department.xml", colorList);
+        DepartmentMapper.LoadXML(departmentList, "./resources/Department.xml", colorList);
         officialPositionList = new ();
-        OfficialPositionMapper.LoadXML(departmentList, officialPositionList, "D:/godot/PromotionChart/resources/OfficialPosition.xml", colorList);
+        OfficialPositionMapper.LoadXML(departmentList, officialPositionList, "./resources/OfficialPosition.xml", colorList);
         Dice dice = new();
-        DiceMapper.LoadXML(dice, "D:/godot/PromotionChart/resources/Dice.xml");
+        DiceMapper.LoadXML(dice, "./resources/Dice.xml");
 
         data = GetNode<Data>("/root/Data");
 
