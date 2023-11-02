@@ -144,8 +144,13 @@ public partial class GameState
     public void ConfirmButtonPressed(GameScene gameScene) {
         if (RoundState == Config.RoundState.ChooseAMember)
         {
-            ChosenMember = PresentPlayer.FindMemberFromOfficialPosition(gameScene.PressedOfficialPositionNode.OfficialPosition);
-            RoundState = Config.RoundState.RollDice;
+            if (gameScene.PressedOfficialPositionNode == null) { 
+
+            }
+            else {
+                ChosenMember = PresentPlayer.FindMemberFromOfficialPosition(gameScene.PressedOfficialPositionNode.OfficialPosition);
+                RoundState = Config.RoundState.RollDice;
+            }
         }
     }
 
@@ -154,6 +159,7 @@ public partial class GameState
         {
             ChosenMember.OfficialPosition = Dice.GetNextState(gameScene.officialPositionList, ChosenMember.OfficialPosition);
             RoundState = Config.RoundState.MoveMentAndOtherResult;
+            gameScene.PressedOfficialPositionNode = null;
             UpdateMoney();
         }
     }
